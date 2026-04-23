@@ -121,7 +121,7 @@ module PVN
             error = "The variable you try to declare is already declared"
         end
         self.logo_printer()
-        puts "Error: Line: #{line}, Token: #{token}. #{error}."#
+        puts "Error: Line: #{line}, Token: #{token}. #{error}."
         exit()
         
     end
